@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1560475146604" stop="1560475147772" version="1.4.15" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Verify signup btton</name>
+    <title>Verify signup btton</title>
+    <test-cases>
+        <test-case start="1560475146656" stop="1560475146658" status="passed">
+            <name>Given I am on home page</name>
+            <title>Given I am on home page</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="MacBook-Pro-185"/>
+                <label name="thread" value="59252@MacBook-Pro-185.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1560475147271" stop="1560475147271" status="passed">
+            <name>When I enter Mohammad into firstname text fields on home screen</name>
+            <title>When I enter Mohammad into firstname text fields on home screen</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="MacBook-Pro-185"/>
+                <label name="thread" value="59252@MacBook-Pro-185.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1560475147507" stop="1560475147507" status="passed">
+            <name>And I enter Muntakim into lastname text fields on home screen</name>
+            <title>And I enter Muntakim into lastname text fields on home screen</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="MacBook-Pro-185"/>
+                <label name="thread" value="59252@MacBook-Pro-185.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1560475147558" stop="1560475147573" status="failed">
+            <name>Then I verify that signup button is disable at homepage</name>
+            <title>Then I verify that signup button is disable at homepage</title>
+            <failure>
+                <message>AssertionError: Signup button should be disable expected [false] but found [true]</message>
+                <stack-trace>java.lang.AssertionError: Signup button should be disable expected [false] but found [true]
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.failNotEquals(Assert.java:512)
+	at org.testng.Assert.assertFalse(Assert.java:62)
+	at stepdefinition.LoginSD.verifyDisableSignupButton(LoginSD.java:73)
+	at ✽.Then I verify that signup button is disable at homepage(login.feature:39)
+</stack-trace>
+            </failure>
+            <steps/>el name="host" value="MacBook-Pro-185"/>
+            <label name="thread" value="59252@MacBook-Pro-185.main(1)"/>
+        </labels>
+    </test-case>
+</test-cases>
+<labels>
+<label name="story" value="Verify signup btton"/>
+<label name="feature" value="Login feature"/>
+<label name="framework" value="CucumberJVM"/>
+<label name="language" value="JAVA"/>
+</labels>
+        </ns2:test-suite>
+
+<attachments/>
+            <labels>
+                <label name="host" value="MacBook-Pro-185"/>
+                <label name="thread" value="59252@MacBook-Pro-185.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="story" value="Verify signup btton"/>
+        <label name="feature" value="Login feature"/>
+        <label name="framework" value="CucumberJVM"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

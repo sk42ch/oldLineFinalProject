@@ -1,0 +1,56 @@
+{
+  "uid" : "8ec409be198b01c8",
+  "name" : "Then I verify that signup button is disable at homepage",
+  "title" : "Then I verify that signup button is disable at homepage",
+  "time" : {
+    "start" : 1560475147558,
+    "stop" : 1560475147573,
+    "duration" : 15
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : {
+    "message" : "AssertionError: Signup button should be disable expected [false] but found [true]",
+    "stackTrace" : "java.lang.AssertionError: Signup button should be disable expected [false] but found [true]\n\tat org.testng.Assert.fail(Assert.java:93)\n\tat org.testng.Assert.failNotEquals(Assert.java:512)\n\tat org.testng.Assert.assertFalse(Assert.java:62)\n\tat stepdefinition.LoginSD.verifyDisableSignupButton(LoginSD.java:73)\n\tat ✽.Then I verify that signup button is disable at homepage(login.feature:39)\n"
+  },
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "FAILED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "6fd379eebc0a871c",
+    "name" : "Verify signup btton",
+    "title" : "Verify signup btton"
+  },
+  "steps" : [ ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "suite-name",
+    "value" : "Verify signup btton"
+  }, {
+    "name" : "thread",
+    "value" : "59252@MacBook-Pro-185.main(1)"
+  }, {
+    "name" : "story",
+    "value" : "Verify signup btton"
+  }, {
+    "name" : "suite-title",
+    "value" : "Verify signup btton"
+  }, {
+    "name" : "host",
+    "value" : "MacBook-Pro-185"
+  }, {
+    "name" : "framework",
+    "value" : "CucumberJVM"
+  }, {
+    "name" : "feature",
+    "value" : "Login feature"
+  } ],
+  "parameters" : [ ]
+}

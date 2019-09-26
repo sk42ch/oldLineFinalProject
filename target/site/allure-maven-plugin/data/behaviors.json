@@ -1,0 +1,70 @@
+{
+  "features" : [ {
+    "title" : "Login feature",
+    "statistic" : {
+      "total" : 4,
+      "passed" : 3,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 1,
+      "broken" : 0
+    },
+    "stories" : [ {
+      "uid" : "c1b42dc7b1554a23",
+      "title" : "Verify signup btton",
+      "statistic" : {
+        "total" : 4,
+        "passed" : 3,
+        "pending" : 0,
+        "canceled" : 0,
+        "failed" : 1,
+        "broken" : 0
+      },
+      "testCases" : [ {
+        "uid" : "ac8d08e19367aff7",
+        "name" : "Given I am on home page",
+        "title" : "Given I am on home page",
+        "time" : {
+          "start" : 1560475146656,
+          "stop" : 1560475146658,
+          "duration" : 2
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "623360a8ff9caa7a",
+        "name" : "When I enter Mohammad into firstname text fields on home screen",
+        "title" : "When I enter Mohammad into firstname text fields on home screen",
+        "time" : {
+          "start" : 1560475147271,
+          "stop" : 1560475147271,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "2785e8619e801934",
+        "name" : "And I enter Muntakim into lastname text fields on home screen",
+        "title" : "And I enter Muntakim into lastname text fields on home screen",
+        "time" : {
+          "start" : 1560475147507,
+          "stop" : 1560475147507,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "8ec409be198b01c8",
+        "name" : "Then I verify that signup button is disable at homepage",
+        "title" : "Then I verify that signup button is disable at homepage",
+        "time" : {
+          "start" : 1560475147558,
+          "stop" : 1560475147573,
+          "duration" : 15
+        },
+        "severity" : "NORMAL",
+        "status" : "FAILED"
+      } ]
+    } ]
+  } ]
+}

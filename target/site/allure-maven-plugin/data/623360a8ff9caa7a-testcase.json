@@ -1,0 +1,53 @@
+{
+  "uid" : "623360a8ff9caa7a",
+  "name" : "When I enter Mohammad into firstname text fields on home screen",
+  "title" : "When I enter Mohammad into firstname text fields on home screen",
+  "time" : {
+    "start" : 1560475147271,
+    "stop" : 1560475147271,
+    "duration" : 0
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "6fd379eebc0a871c",
+    "name" : "Verify signup btton",
+    "title" : "Verify signup btton"
+  },
+  "steps" : [ ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "suite-name",
+    "value" : "Verify signup btton"
+  }, {
+    "name" : "thread",
+    "value" : "59252@MacBook-Pro-185.main(1)"
+  }, {
+    "name" : "story",
+    "value" : "Verify signup btton"
+  }, {
+    "name" : "suite-title",
+    "value" : "Verify signup btton"
+  }, {
+    "name" : "host",
+    "value" : "MacBook-Pro-185"
+  }, {
+    "name" : "framework",
+    "value" : "CucumberJVM"
+  }, {
+    "name" : "feature",
+    "value" : "Login feature"
+  } ],
+  "parameters" : [ ]
+}

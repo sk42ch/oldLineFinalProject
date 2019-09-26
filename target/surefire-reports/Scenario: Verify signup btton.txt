@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: Scenario: Verify signup btton
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.643 sec <<< FAILURE! - in Scenario: Verify signup btton
+Scenario: Verify signup btton  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: Signup button should be disable expected [false] but found [true]
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.failNotEquals(Assert.java:512)
+	at org.testng.Assert.assertFalse(Assert.java:62)
+	at stepdefinition.LoginSD.verifyDisableSignupButton(LoginSD.java:73)
+	at ✽.Then I verify that signup button is disable at homepage(login.feature:39)
+
